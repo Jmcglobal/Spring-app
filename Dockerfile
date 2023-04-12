@@ -1,4 +1,4 @@
-FROM openjdk:11.0.14
+FROM openjdk:latest
 
 COPY target/*.jar app.jar
 
